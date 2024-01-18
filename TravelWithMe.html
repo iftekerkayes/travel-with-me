@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Travel Blog</title>
+        <link rel="shortcut icon" href="favIcon/travel blog.jpg" type="image/x-icon">
+        <style>
+            *{
+                margin:1%;
+            }
+            h1, .countryList{
+                color:chocolate;
+                text-align: center;
+            }
+            #firstSection{
+                display:flex; flex-direction:row; margin-left:50px;
+            }
+            .blog{
+                width: 480px; font-size: 20px; text-align: justify;
+                background-color: antiquewhite;
+                border-left: 20px solid aqua;
+                border-radius: 5px;
+            }
+            .formInfo{
+                display: block; height: 30px;
+            }
+            .blog-btn{
+                border: 3px solid black;
+                border-radius: 15%;
+                color: white;
+                background-color: red;
+            }
+
+            button[type="submit"]{
+                background-color: green;
+                color: white;
+                border: 4px solid black;
+                font-size: larger;
+                font-weight: 800;
+                
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <!--This is my main heading.-->
+        <h1> Welcome To My Travel Blog!!!</h1> 
+
+        <!--This is my Blog Section.-->
+        <section id="firstSection">                                 
+            <div style="width:600px">
+                <img src="Travel blog Image/ian-dooley-hpTH5b6mo2s-unsplash.jpg" alt="nice travel image" height="300px" width="500px">
+                <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate aspernatur eius suscipit id iure, ut corporis quasi nihil doloribus repellat, consequuntur debitis error sint labore nemo quos laudantium? Cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nobis impedit cum nemo repellendus, rem molestias reprehenderit dolore necessitatibus, et in deleniti, quasi dicta iure qui? Aperiam commodi voluptas excepturi minus sit accusantium esse veritatis? !<button class="blog-btn">Read More</button>
+                </p>
+            </div>
+    
+            <div style="width:600px">
+                <img src="Travel blog Image/luca-bravo-O453M2Liufs-unsplash.jpg" alt="cool travel image" height="300px" width="500px">
+                <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate aspernatur eius suscipit id iure, ut corporis quasi nihil doloribus repellat, consequuntur debitis error sint labore nemo quos laudantium? Cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nobis impedit cum nemo repellendus, rem molestias reprehenderit dolore necessitatibus, et in deleniti, quasi dicta iure qui? Aperiam commodi voluptas excepturi minus sit accusantium esse veritatis? !<button class="blog-btn">Read More</button>
+                </p>
+            </div>
+
+            <div style="width:600px">
+                <img src="Travel blog Image/neom-i60yUhfWeYI-unsplash.jpg" alt="beutiful image" height="300px" width="500px">
+                <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate aspernatur eius suscipit id iure, ut corporis quasi nihil doloribus repellat, consequuntur debitis error sint labore nemo quos laudantium? Cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nobis impedit cum nemo repellendus, rem molestias reprehenderit dolore necessitatibus, et in deleniti, quasi dicta iure qui? Aperiam commodi voluptas excepturi minus sit accusantium esse veritatis? !<button class="blog-btn">Read More</button>
+                </p>
+            </div>
+        </section>
+        <section style="display: flex;">
+            <span class=""><b>What I Bought</b></span>
+
+            <div>
+                <!--Orderd List-->
+                <h3 style="width: 500px;">Places That I want to visit : </h3>
+                <ol type="1">
+                    <li>Makkah</li>
+                    <li>Madina</li>
+                    <li>Al Aqsa/Plaestain</li>
+                    <li>Afganistan</li>
+                    <li>Kashmir</li>
+                    <li>Pakistan</li>
+                    <li>Siriya</li>
+                    <li>Libia</li>
+                    <li>Turkey</li>
+                </ol>
+            </div>
+
+           <div>
+              <!--UnOrderd List-->
+                <h3 style="width: 500px;">Foods I want to try : </h3>
+                <ul style="list-style-type: square;">
+                    <li>Haydrabadi Biriany</li>
+                    <li>Kashmir Fruits</li>
+                    <li>Environtment</li>
+                    <li>Chicken Roast</li>
+                    <li>Holy ZamZam water.</li>
+                    <li>Street Food</li>
+                    <li>Ice Cream</li>
+                    <li>Kala Vhuna</li>
+                    <li>Teheri</li>
+                </ul>
+            </div>
+
+            <!--Resister Form-->
+
+            <div >
+                <h3 style="width: 400px;">Already Have Account ? <a href="login.html" target="_blank"><strong>LogIn NOW!!!</strong></a>
+                </h3>
+                <h3 style="width: 400px;">If you want to visit your dream destination, Resigster NOW!!! </h3>
+                <form action="">
+                    <span class="formInfo"> <b>Name    :</b> <input type="text" name="" id="" placeholder="Type your Name"></span> 
+                <span class="formInfo"> <b>Email   :</b> <input type="email" name="" id="" placeholder="Type your Email"></span>
+                <span class="formInfo"> <b>DOB     :</b> <input type="date" name="" id="" placeholder="Enter Your Date Of Birth"></span>
+                <span class="formInfo"> <b>Country :</b> 
+                  <select>
+                    <option class="countryList">Bangladesh</option>
+                    <option class="countryList">Pakistan</option>
+                    <option class="countryList">Afganistan</option>
+                    <option class="countryList">India</option>
+                  </select> 
+                </span>
+                <span class="formInfo"> <b>Address :</b> <input type="text" name="" id="" placeholder="Enter your Address"></span>
+                <span class="formInfo"> <b>Phone   :</b> <input type="text" name="" id="" placeholder="Enter Your Phone Number"></span>
+
+                <span class="formInfo"> <input type="checkbox" name="" id="" placeholder="Enter Your Phone Number"><b> I accepts all the terms & Condition. </b></span>
+                <button type="submit">Submit</button>
+                </form>
+
+
+            </div>
+            
+        </section>
+        
+        
+    </body>
+</html>
